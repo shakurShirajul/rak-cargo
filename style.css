@@ -67,7 +67,6 @@ header{
 }
 .nav-icon{
     display: none;
-    /* visibility: hidden; */
 }
 
 /* Section Work */
@@ -110,7 +109,7 @@ section{
 }
 .serv-box{
     padding: 10px;
-    width: 28%;
+    width: 33%;
     color: white;
     background-color: blueviolet;
     font-size: 1.2em;
@@ -121,13 +120,11 @@ section{
 /* services - area */
 
 .services-area{
-    /* border: 2px solid green; */
     display: flex;
     justify-content: center;
     
 }
 .services-area-content{
-    /* border: 2px solid green; */
     width: 85%;
     display: flex;
     flex-direction: column;
