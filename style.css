@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+/* Header File CSS */
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+}
+.logo img{
+    height: 80px;
+    width: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+}
+.nav-items li{
+	list-style-type: none;
+    padding: 0 20px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: black
+}
+
+
+/* Section Work */
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+.hero-text h1{
+    font-size: 45px;
+    color: white;
+}
+.hero-text p{
+    color: white;
+}
+.hero-img img{
+    height: 500px;
+}
+
+
+/* ---- Services Section ---- */
+
+.service-section{
+    display: flex;
+    justify-content: center;
+}
+.services{
+    width: 85%;
+}
+.serv-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+.serv-box{
+    padding: 10px;
+    width: 28%;
+    color: white;
+    background-color: blueviolet;
+    font-size: 1.2em;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+/* services - area */
+
+.services-area{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    
+}
+.services-area-content{
+    /* border: 2px solid green; */
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+}
+#location-table th{
+    background-color: blueviolet;
+    color: white;
+}
+#location-table{
+    text-align: left;
+    font: 18px;
+}
+#location-table tr:nth-child(even){background-color: #f2f2f2;}
+#locatation-table td, #location-table th{
+    padding: 8px;
+}
+
+/* --- Charge Calculator --- */
+.charge-calculator{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.calculator{
+    display: flex;
+    width: 85%;
+}
+.form-group{
+    display: block;
+}
+.form-select{
+    width: 258px;
+    height: 32px;
+}
+
+/* --- contac area --- */
+
+
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.contact-container{
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-box{
+    padding: 1%;
+    width: 40%;
+    text-align: center;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 2%;
+}
+
+/* --- Footer Area --- */
+.main-footer{
+    display: flex;
+    background-color: blueviolet;
+    height: 40vh;
+    align-items: center;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    box-shadow: 15px 5px 15px 0 rgba(0, 0, 0, 0.25);
+    /* border: px solid green; */
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    width: 20px solid red;
+}
+.fc ul{
+    color: white;
+    list-style-type: none;
+}
+.fc h3{
+    color: white;
+}
