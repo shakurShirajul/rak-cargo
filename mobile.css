@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 .li-laptop{
     display: none;
 }
@@ -8,23 +9,34 @@
     display: block;
     font-size: larger;
 }
+
+/* ---- Section ---- */
 .hero-img img{
     display: none;
 }
-section{
-    height: 50vh;
-
+.hero-text{
+    padding: 20px;
 }
 .hero-text h1{
-    font-size: 2rem;
+    font-size: 1em;
 }
 .hero-text p{
-    font-size: 0.9rem;
+    font-size: 1em;
 }
+
+
+/* ---- Charge Calculator ---- */
+
 .charge-calculator{
     display: none;
 }
 
+/* ---- services box ----- */
+
+.serv-box h3{
+    text-wrap: nowrap;
+    font-size: 0.5rem;
+}
 
 /* ---- Message Box    ---- */
 
@@ -42,6 +54,6 @@ section{
     align-items: center;
 }
 .fc{
-    width: 400px;
+    width: 70%;
     margin: 10px;
 }
