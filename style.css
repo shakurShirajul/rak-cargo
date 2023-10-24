@@ -47,7 +47,7 @@ header{
 }
 .logo img{
     height: 80px;
-    width: 100px;
+    width: 85px;
 }
 .logo{
     display: flex;
@@ -55,6 +55,7 @@ header{
 }
 .nav-items{
     display: flex;
+    justify-content: space-between;
 }
 .nav-items li{
 	list-style-type: none;
@@ -64,7 +65,10 @@ header{
     text-decoration: none;
     color: black
 }
-
+.nav-icon{
+    display: none;
+    /* visibility: hidden; */
+}
 
 /* Section Work */
 section{
@@ -187,18 +191,18 @@ section{
 .main-footer{
     display: flex;
     background-color: blueviolet;
-    height: 40vh;
+    /* height: 40vh; */
     align-items: center;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
     box-shadow: 15px 5px 15px 0 rgba(0, 0, 0, 0.25);
-    /* border: px solid green; */
 }
 .footer-content{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    width: 20px solid red;
+    margin: 30px 0px;
+    /* width: 20px solid red; */
 }
 .fc ul{
     color: white;

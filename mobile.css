@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.li-laptop{
+    display: none;
+}
+.nav-icon{
+    display: block;
+    font-size: larger;
+}
+.hero-img img{
+    display: none;
+}
+section{
+    height: 50vh;
+
+}
+.hero-text h1{
+    font-size: 2rem;
+}
+.hero-text p{
+    font-size: 0.9rem;
+}
+.charge-calculator{
+    display: none;
+}
+
+
+/* ---- Message Box    ---- */
+
+.contact-box{
+    width: 50%;
+}
+
+/* ---- Footer Content ---- */
+
+.footer-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fc{
+    width: 400px;
+    margin: 10px;
+}
