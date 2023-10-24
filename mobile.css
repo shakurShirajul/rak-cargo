@@ -32,16 +32,28 @@
 }
 
 /* ---- services box ----- */
+.serv-box{
+    padding: 7px;
+}
 
 .serv-box h3{
     text-wrap: nowrap;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 }
 
 /* ---- Message Box    ---- */
 
 .contact-box{
     width: 50%;
+}
+.contact-container{
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contact-box{
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 /* ---- Footer Content ---- */

@@ -105,7 +105,7 @@ section{
 .serv-container{
     display: flex;
     justify-content: space-evenly;
-    margin: 30px 0;
+    margin: 10px 0;
 }
 .serv-box{
     padding: 10px;
