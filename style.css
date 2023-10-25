@@ -75,7 +75,7 @@ section{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    background-color: blueviolet;
+    background-color: navy;
     font-family: 'Roboto', sans-serif;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
     border-bottom-right-radius: 5%;
@@ -111,7 +111,7 @@ section{
     padding: 10px;
     width: 33%;
     color: white;
-    background-color: blueviolet;
+    background-color: navy;
     font-size: 1.2em;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
 }
@@ -132,7 +132,7 @@ section{
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
 }
 #location-table th{
-    background-color: blueviolet;
+    background-color: navy;
     color: white;
 }
 #location-table{
@@ -187,7 +187,7 @@ section{
 /* --- Footer Area --- */
 .main-footer{
     display: flex;
-    background-color: blueviolet;
+    background-color: navy;
     /* height: 40vh; */
     align-items: center;
     border-top-right-radius: 5%;
