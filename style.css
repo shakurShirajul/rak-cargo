@@ -28,6 +28,10 @@
 
 /* Header File CSS */
 
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -71,6 +75,7 @@ header{
 .nav-items-a:hover{
     color: navy;
     cursor: pointer;
+    font-weight: bolder;
 }
 /* Section Work */
 section{
@@ -145,6 +150,23 @@ section{
 #location-table tr:nth-child(even){background-color: #f2f2f2;}
 #locatation-table td, #location-table th{
     padding: 8px;
+}
+
+.deli-collect{
+    display: flex;
+    justify-content: center;
+}
+.deli-collect-container{
+    width: 85%;
+}
+.deli-collect-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.deli-collect-box ul{
+    list-style-type: square;
+    margin-left: 10px;
+    font-size: large;
 }
 
 /* --- Charge Calculator --- */
