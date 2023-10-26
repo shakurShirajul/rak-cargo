@@ -68,7 +68,10 @@ header{
 .nav-icon{
     display: none;
 }
-
+.nav-items-a:hover{
+    color: navy;
+    cursor: pointer;
+}
 /* Section Work */
 section{
     display: flex;
